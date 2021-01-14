@@ -1,0 +1,22 @@
+
+h1 {
+  text-align: center;
+}
+
+ul #Ford {
+  color: red;
+}
+
+#aceptar:hover {
+  color: red;
+}
+
+#habitat {
+  width: 300px;
+  height: 170px;
+  background-color: palegoldenrod;
+  border-width: 5px;
+  border-color: black;
+  border-style: solid;
+  padding: 0;
+}
