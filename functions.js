@@ -21,4 +21,4 @@ function isSnakeEyes(dice1, dice2) {
   }
 }
 
-isSnakeEyes(2,1)
+isSnakeEyes(1,1)
