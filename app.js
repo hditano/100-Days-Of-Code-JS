@@ -1,3 +1,5 @@
+/*** Decision Making  ***/
+
 // const dia = "Lunes"
 
 // let usuario = prompt("Que dia es?")
@@ -15,6 +17,8 @@
 // } else {
 //   console.log("la edad es menor a 5 o mayor a 65")
 // }
+
+/*** Arrays ***/
 
 // let myArray = ['Hernan', 'Sebastian', 'Gimena']
 
@@ -87,6 +91,8 @@
 // let myArray = [];
 // let userInput;
 
+/*** While Loop ***/
+
 // while (userInput !== 'q') {
 //   userInput = prompt("What would you like to do?")
 //   if (userInput === 'add') {
@@ -103,3 +109,4 @@
 //     console.log("removing list")
 //   }
 // }
+
