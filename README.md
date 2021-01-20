@@ -5,3 +5,5 @@ The WebDeveloper Bootcamp 2020 Course
 * Object Literal
 * Arrays
 * Functions
+ * Functions Expresions
+ * Block Scope / Lexical Scope
