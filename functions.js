@@ -98,3 +98,55 @@
 // }
 
 // pi(123);
+
+// const square = function (num) {
+//   return num * num
+// }
+
+// square(5);
+
+// const myObject = {
+//   PI: 3.14,
+//   sum: function (a, b) {
+//     return a + b;
+//   }
+// }
+
+// const myObject = {
+//   PI: 3.14,
+//   sum(a, b) {
+//     return a + b;
+//   }
+// }
+
+// console.log(myObject.sum(2,3))
+
+// const square = {
+//   area(a) {
+//     return a*a;
+//   },
+//   perimeter(b) {
+//     return b * 4;
+//   },
+// }
+
+// console.log(square.perimeter(2))
+
+/** Exercise 217 */
+
+// const hen = {
+//   name : 'Helen',
+//   eggCount : 0,
+//   layAnEgg () {
+//     this.eggCount++;
+//     return 'EGG';
+//   },
+// }
+
+const impuesto = {
+  iva (num) {
+    console.log(`El total en pesos argentinos es $${(parseFloat((num * 87) *  1.21).toFixed(2))}`);
+  } 
+}
+
+impuesto.iva(20);

@@ -7,3 +7,4 @@ The WebDeveloper Bootcamp 2020 Course
 * Functions
  * Functions Expresions
  * Block Scope / Lexical Scope
+ 
