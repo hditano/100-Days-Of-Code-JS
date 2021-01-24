@@ -143,10 +143,18 @@
 //   },
 // }
 
-const impuesto = {
-  iva (num) {
-    console.log(`El total en pesos argentinos es $${(parseFloat((num * 87) *  1.21).toFixed(2))}`);
-  } 
-}
+const peliculas = [
+  {
+  Title: 'Batman',
+  Score: 50,
+  MamaCora: 100,
+},
+ {
+   Title: 'Superman',
+   Score: 40,
+ },
+]
 
-impuesto.iva(20);
+for (let i of peliculas) {
+  console.log(`La Pelicula se llama ${i.Title} y su Score es ${i.Score}`)
+}
