@@ -143,18 +143,41 @@
 //   },
 // }
 
-const peliculas = [
-  {
-  Title: 'Batman',
-  Score: 50,
-  MamaCora: 100,
-},
- {
-   Title: 'Superman',
-   Score: 40,
- },
-]
+// const peliculas = [
+//   {
+//   Title: 'Batman',
+//   Score: 50,
+//   MamaCora: 100,
+// },
+//  {
+//    Title: 'Superman',
+//    Score: 40,
+//  },
+// ]
 
-for (let i of peliculas) {
-  console.log(`La Pelicula se llama ${i.Title} y su Score es ${i.Score}`)
+// for (let i of peliculas) {
+//   console.log(`La Pelicula se llama ${i.Title} y su Score es ${i.Score}`)
+// }
+
+/* MAP */
+
+// const titulos = peliculas.map(function (t) {
+//   return t.Title;
+// })
+
+// for (let element of titulos) {
+//   console.log(element)
+// }
+
+/* Exercise 47 - Map*/
+
+
+cleanNames = [" Hernan ", " Sebastian", " Zoe ", " Gimena "];
+
+const newClean = cleanNames.map (function (t) {
+  return t.trim();
+})
+
+for (let i of newClean) {
+  console.log(i)
 }
