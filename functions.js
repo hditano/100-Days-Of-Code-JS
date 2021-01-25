@@ -143,17 +143,17 @@
 //   },
 // }
 
-// const peliculas = [
-//   {
-//   Title: 'Batman',
-//   Score: 50,
-//   MamaCora: 100,
-// },
-//  {
-//    Title: 'Superman',
-//    Score: 40,
-//  },
-// ]
+const peliculas = [
+  {
+  Title: 'Batman',
+  Score: 50,
+  MamaCora: 100,
+},
+ {
+   Title: 'Superman',
+   Score: 40,
+ },
+]
 
 // for (let i of peliculas) {
 //   console.log(`La Pelicula se llama ${i.Title} y su Score es ${i.Score}`)
@@ -172,12 +172,37 @@
 /* Exercise 47 - Map*/
 
 
-cleanNames = [" Hernan ", " Sebastian", " Zoe ", " Gimena "];
+// cleanNames = [" Hernan ", " Sebastian", " Zoe ", " Gimena "];
 
-const newClean = cleanNames.map (function (t) {
-  return t.trim();
+// const newClean = cleanNames.map (function (t) {
+//   return t.trim();
+// })
+
+// for (let i of newClean) {
+//   console.log(i)
+// }
+
+
+/* Arrow Functions */
+
+// const newClean = cleanNames.map(t => {
+//   return t.trim();
+// })
+
+// for (let i of newClean) {
+//   console.log(i);
+// }
+
+
+/* Exercise 48 */
+
+// const greet = name => {
+//   return `Hey ${name}!`;
+// }
+
+/* Arrow Functions Peliculas array */
+
+const newMovies = peliculas.map(t => {
+  return console.log(`La Pelicula es ${t.Title}`);
 })
 
-for (let i of newClean) {
-  console.log(i)
-}
