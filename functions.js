@@ -202,7 +202,7 @@ const peliculas = [
 
 /* Arrow Functions Peliculas array */
 
-const newMovies = peliculas.map(t => {
-  return console.log(`La Pelicula es ${t.Title}`);
-})
+// const newMovies = peliculas.map(t => {
+//   return console.log(`La Pelicula es ${t.Title}`);
+// })
 
