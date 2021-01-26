@@ -143,17 +143,17 @@
 //   },
 // }
 
-const peliculas = [
-  {
-  Title: 'Batman',
-  Score: 50,
-  MamaCora: 100,
-},
- {
-   Title: 'Superman',
-   Score: 40,
- },
-]
+// const peliculas = [
+//   {
+//   Title: 'Batman',
+//   Score: 50,
+//   MamaCora: 100,
+// },
+//  {
+//    Title: 'Superman',
+//    Score: 40,
+//  },
+// ]
 
 // for (let i of peliculas) {
 //   console.log(`La Pelicula se llama ${i.Title} y su Score es ${i.Score}`)
@@ -204,5 +204,86 @@ const peliculas = [
 
 // const newMovies = peliculas.map(t => {
 //   return console.log(`La Pelicula es ${t.Title}`);
+// })
+
+/* SetTimeOut */
+
+// const esperar = (t) => { setTimeout(() => {
+//   console.log(`Espere un total de ${t} milisegundos`)
+// }, t)}
+
+// esperar(3000)
+
+
+/* Filter */
+
+// const score70 = peliculas.filter(n => {
+//   return n.Score >= 70;
+// })
+
+/* Exercise 49 */
+
+// const asde = [{
+//   Pelicula: 'Batman',
+//   Score: 70,
+//   Director: 'DiTano',
+// },
+// {
+//   Pelicula: 'La Carroza',
+//   Score: 56,
+//   Director: 'Rios',
+// },
+// {
+//   Pelicula: 'Mama mia', 
+//   Score: 98,
+//   Director: 'Fernandez',
+// },]
+
+// function validUserNames(x) {
+//   return x.filter (n => n.length < 4)
+// }
+
+// validUserNames(userNames)
+
+// function ScoreMovies(x){
+//   return x.filter (n => n.Score < 99)
+// }
+
+// ScoreMovies(asd)
+
+/* Every and Some */
+
+// asde.some(x => x.Score >= 30)
+
+/* Exercise 50 */
+
+// const allEvens = x => {
+//   let newArray = x.every(num => num % 2 === 0);
+//   return newArray;
+// }
+
+/* Reduce */
+// const asde = [{
+//   Pelicula: 'Batman',
+//   Score: 70,
+//   Director: 'DiTano',
+// },
+// {d
+//   Pelicula: 'La Carroza',
+//   Score: 56,
+//   Director: 'Rios',
+// },
+// {
+//   Pelicula: 'Mama mia', 
+//   Score: 98,
+//   Director: 'Fernandez',
+// },]
+
+// const newScore = asde.reduce((min, currentValue) => {
+//   if (min.Score < currentValue.Score) {
+//     return console.log(currentValue);
+//   } else {
+//     return min;
+//   }
 // })
 
