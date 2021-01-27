@@ -287,3 +287,16 @@
 //   }
 // })
 
+/* Spread with Objects */
+
+const user = {
+  userName : 'hditano',
+  password : 123,
+  firstName : 'Hernan',
+  lastName : 'Di Tano',
+  City : 'Buenos Aires'
+}
+
+const newUser = {...user, secretID: 3030, country: 'Argentina'}
+
+console.log(newUser);
