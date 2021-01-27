@@ -289,14 +289,47 @@
 
 /* Spread with Objects */
 
-const user = {
-  userName : 'hditano',
-  password : 123,
+// const user = {
+//   userName : 'hditano',
+//   password : 123,
+//   firstName : 'Hernan',
+//   lastName : 'Di Tano',
+//   City : 'Buenos Aires'
+// }
+
+// const newUser = {...user, secretID: 3030, country: 'Argentina'}
+
+// console.log(newUser);
+
+/* Rest Params */
+/* La cantidad de parametros que le pasamos a una funcion, los convierte en un array y en este caso hace la suma total, para luego
+   ponerlo en otro array.
+   Basicamente estamos agarrando todos los argumentos en un solo parametro (...nums) */
+
+// function sum (...nums) {
+//   return nums.reduce((total, currentValue) => total + currentValue)
+// }
+
+// const newSum = sum(2,3,4);
+
+// console.log(newSum);
+
+/* Destructuring Arrays/Objects/Params*/
+/* Tomar los elementos de un array por ejemplo, para posterior asignarlos a una nueva variable, sin modificar el array original */
+
+// const nombres = ['Hernan', 'Sebastian', 'Zoe', 'Gimena', 'Run']
+
+// const [Primero, Segundo, Tercero, Cuarto, ...losQueQuedan] = nombres;
+
+// console.log(Primero);
+
+const newObject = {
   firstName : 'Hernan',
   lastName : 'Di Tano',
-  City : 'Buenos Aires'
+  Born : 1983,
+  City : 'Buenos Aires',
+  Country : 'Argentina',
 }
 
-const newUser = {...user, secretID: 3030, country: 'Argentina'}
-
-console.log(newUser);
+const { firstName, lastName, City, Country } = newObject;
+console.log(City);
