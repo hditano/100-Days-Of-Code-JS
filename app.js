@@ -55,11 +55,29 @@
 
 /* Filter Exercise */
 
-// let users = [
-//   {id: 1, name: 'Hernan'},
-//   {id: 2, name: 'Admin'},
-// ]
+let users = [
+  {id: 1, name: 'Hernan'},
+  {id: 2, name: 'Admin'},
+]
 
 // let newUsers = users.filter(item => item.id < 3);
 
 // console.log(newUsers);
+
+
+// let numbers = ['Zoe', 'Sebastian', 'Run']
+
+// newImage.setAttribute('src', 'www.google.com')
+
+
+/* Map Exercise Anki */ 
+
+const myarray = [1,2,3];
+
+// const newArray = myarray.map(function (t) { return t.toUpperCase()});
+
+// console.log(newArray)
+
+const firstLink = document.querySelector('a');
+
+firstLink.setAttribute('src', 'www.google.com.ar');
