@@ -78,6 +78,14 @@ const myarray = [1,2,3];
 
 // console.log(newArray)
 
-const firstLink = document.querySelector('a');
+// const firstLink = document.querySelector('a');
 
-firstLink.setAttribute('src', 'www.google.com.ar');
+// firstLink.setAttribute('src', 'www.google.com.ar');
+
+/* Exercise 57 - classList */
+
+// const myLi = document.querySelectorAll('li');
+
+// for (let i = 0; i < myLi.length; i++) {
+//     myLi[i].classList.toggle('highlight');
+// }
