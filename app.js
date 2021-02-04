@@ -72,7 +72,7 @@ let users = [
 
 /* Map Exercise Anki */ 
 
-const myarray = [1,2,3];
+const myarray = ['hernan', 'sebastian'];
 
 // const newArray = myarray.map(function (t) { return t.toUpperCase()});
 
@@ -89,3 +89,34 @@ const myarray = [1,2,3];
 // for (let i = 0; i < myLi.length; i++) {
 //     myLi[i].classList.toggle('highlight');
 // }
+
+// const newArray = myarray.map(function (t) { return t.toUpperCase()});
+
+// console.log(newArray);
+
+/* Map Exercise javascriptinfo */
+
+// let ask = (q, a, b) => {
+//   if (confirm(q)) a()
+//   else b();
+// }
+
+// ask("Do you Agree",function() {alert("You agreed"); }, function() {alert("You canceled")});
+
+
+/* Append/Appenchild example */
+
+// const newElement = document.createElement('h1');
+
+// newElement.innerText = 'This is new';
+
+// document.body.appendChild(newElement);
+
+/* Exercise 58 */
+
+for(let i = 1; i <= 100; i++) {
+  const newElement = document.createElement('button');
+  newElement.innerText = 'Hey!';
+  const container = document.querySelector('#container')
+  container.appendChild(newElement); 
+  }
