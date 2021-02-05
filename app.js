@@ -136,6 +136,6 @@ for (let i = 1; i < 181; i++){
   const imgElement = document.createElement('img');
   imgElement.src = `${imgBaseUrl}` + `${i}` + `.png`
 
-  pokemon.appendChild(imgElement);  
+  pokemon.appendChild(imgElement);
   container.appendChild(pokemon);
 }
