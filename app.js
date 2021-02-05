@@ -114,9 +114,28 @@ const myarray = ['hernan', 'sebastian'];
 
 /* Exercise 58 */
 
-for(let i = 1; i <= 100; i++) {
-  const newElement = document.createElement('button');
-  newElement.innerText = 'Hey!';
+// for(let i = 1; i <= 100; i++) {
+//   const newElement = document.createElement('button');
+//   newElement.innerText = 'Hey!';
+//   const container = document.querySelector('#container')
+//   container.appendChild(newElement); 
+//   }
+
+// const newArray = myarray.map(function (t) {return t.toUpperCase()});
+
+// console.log(newArray);  
+
+
+/* PokeDex Exercise */
+
+const imgBaseUrl = 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/';
+
+for (let i = 1; i < 181; i++){
   const container = document.querySelector('#container')
-  container.appendChild(newElement); 
-  }
+  const pokemon = document.createElement('div');
+  const imgElement = document.createElement('img');
+  imgElement.src = `${imgBaseUrl}` + `${i}` + `.png`
+
+  pokemon.appendChild(imgElement);  
+  container.appendChild(pokemon);
+}
