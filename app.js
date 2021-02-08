@@ -128,14 +128,18 @@ const myarray = ['hernan', 'sebastian'];
 
 /* PokeDex Exercise */
 
-const imgBaseUrl = 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/';
+// const imgBaseUrl = 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/';
 
-for (let i = 1; i < 181; i++){
-  const container = document.querySelector('#container')
-  const pokemon = document.createElement('div');
-  const imgElement = document.createElement('img');
-  imgElement.src = `${imgBaseUrl}` + `${i}` + `.png`
+// for (let i = 1; i < 181; i++){
+//   const container = document.querySelector('#container')
+//   const pokemon = document.createElement('div');
+//   const imgElement = document.createElement('img');
+//   imgElement.src = `${imgBaseUrl}` + `${i}` + `.png`
 
-  pokemon.appendChild(imgElement);
-  container.appendChild(pokemon);
-}
+//   pokemon.appendChild(imgElement);
+//   container.appendChild(pokemon);
+// }
+
+// const newimg = document.querySelector('img');
+
+// window.getComputedStyle()
