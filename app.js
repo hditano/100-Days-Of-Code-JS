@@ -143,3 +143,9 @@ const myarray = ['hernan', 'sebastian'];
 // const newimg = document.querySelector('img');
 
 // window.getComputedStyle()
+
+// const caps = myarray.map(function (t) {return t.toUpperCase()});
+
+// console.log(caps);
+
+const caps = myarray.filter(item => item.id < 3);
